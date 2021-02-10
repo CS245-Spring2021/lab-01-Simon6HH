@@ -1,0 +1,9 @@
+Requirement 2 - TIME:
+The highestAltitude function has 3 lines that are executed exactly once. 4 lines of code within the "for loop"
+that are executed "n" times (in this case 5 times). The total execution is 4 + 5(n) which simplifies to O(n), a linear function
+in time complexity.
+
+Requirement 3 - SPACE:
+Simple variables add a space complexity of O(1). Using this, the two variables at the start, "maxALT" and "currALT" have a + 2
+constant space complexity. Since those are the only two variables used throughout the function, we have a O(1), a constant function
+in space complexity.
